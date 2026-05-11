@@ -33,6 +33,10 @@ public class DiscountCalculator {
             discount = discount + 5;
         }
 
+        if (discount > 15) {
+            discount = 15;
+        }
+
         return discount;
     }
 }
